@@ -95,7 +95,8 @@
   
   .b-welcome h1,
   h3 {
-color: whitesmoke;    text-shadow: 100px black;
+color: whitesmoke;    
+text-shadow: 100px black;
   }
   
   .b-button {
@@ -126,11 +127,7 @@ color: whitesmoke;    text-shadow: 100px black;
     font-weight: bolder;
     font-size: x-large;
   }
-  /*
-  .prueba {
-    background-color: red;
-  }
-  */
+  
   .b-catalogo {
     display: flex;
     align-items: center;
@@ -143,7 +140,6 @@ color: whitesmoke;    text-shadow: 100px black;
   
   .b-catalogo li a:hover {
     color: black;
-    /*font-size: xx-large;*/
     transition: 0.5s;
     border-bottom: 6px blue solid;
     padding: 9px;
@@ -186,11 +182,7 @@ color: whitesmoke;    text-shadow: 100px black;
     color: black;
   }
   
-  /*
-  .b-fichas li a:hover img {
-    cursor: pointer;
-    }
-   */
+
   
   .b-gallery {
     display: flex;
