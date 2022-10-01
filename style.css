@@ -83,11 +83,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     
   }
-    
+
+
   
   .b-welcome {
-    padding: 650px 1100px 0px 00px;
-  
+    padding: 550px 1100px 0px 00px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +133,7 @@ text-shadow: 100px black;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 30px;
     padding: 10px;
     width: 1500px;
     border-bottom: 1px black solid;
@@ -162,7 +162,14 @@ text-shadow: 100px black;
     align-items: center;
     width: 25%;
   }
-  
+  .b-fichas article img:hover {
+    transform: scale(1.1);
+    transition: transform 0.55s;
+
+
+}
+  }
+
   .b-fichas h4 {
     padding: 10px;
   }
@@ -245,7 +252,37 @@ text-shadow: 100px black;
   }
   
   .b-buttons {
-    margin-left: 300px;
+    display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 235px;
+      height: 145px;
+  } 
+  
+  .b-buttons article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    width: 285px;
+    height: 130px;
+    margin: 6px;
+    padding: 4px;
+    background-color: rgb(196, 196, 196);
+  
+  }
+
+  .b-buttons__link {
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    font size: small;
+  }
+  
+  .b-buttons img {
+    max-width: 39%;
+    height: auto;
   }
   
   .b-list--big {
