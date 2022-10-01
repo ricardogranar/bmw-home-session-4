@@ -196,8 +196,9 @@ text-shadow: 100px black;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content:space-around;
     margin-top: 50px;
-    margin-left: 180px;
+    margin: 200px;
     height: 1000px;
   }
   
@@ -256,10 +257,15 @@ text-shadow: 100px black;
       flex-wrap: wrap;
       text-align: center;
       margin-top: 20px;
-      margin-left: 235px;
       height: 145px;
   } 
-  
+  .b-buttons__centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+  }
   .b-buttons article {
     display: flex;
     flex-direction: column;
